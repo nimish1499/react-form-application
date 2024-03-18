@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# React Form Application with Multiple User Submissions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React application enables the submission of user details through a form and displays all submitted entries. Built with TypeScript, it utilizes Context for global state management, ensuring an efficient way to pass and display data across components. The application supports adding details for more than one user and viewing all users that have been added thus far.
 
-## Available Scripts
+## Deployment:
 
-In the project directory, you can run:
+The live version of this project - https://user-details-typescript.netlify.app/.
 
-### `npm start`
+## Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Multiple User Submissions:** Users can submit details for multiple individuals, and each submission is added to a list of all users.
+- **Custom Select Component:** Features a custom dropdown component created with chakra-react-select, including a green check icon for selected options, adhering to specific UI requirements.
+- **Global State Management:** Employs React Context for state management, avoiding props drilling and enhancing data flow across components.
+- **Responsive Design:** The form is responsive, providing a seamless experience across various devices.
+- **Comprehensive Form Validation:** Utilizes react-hook-form for robust form handling and validation, offering custom validation messages.
+- **Dynamic Tech Stack Inputs:** Allows for the dynamic addition and removal of tech stack fields, maintaining a minimum of one field.
+- **Loading State on Submission:** Displays a loading spinner inside the submit button for three seconds upon form submission, simulating data processing.
+- **Error Handling:** Implements comprehensive error handling, displaying specific messages for different validation failures.
+- **Accessibility Focused:** Adheres to accessibility standards, ensuring the form is usable for a broad audience.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies and Libraries Used
 
-### `npm test`
+- **TypeScript:** For type-checking and enhancing code maintainability.
+- **Chakra UI:** Provides a comprehensive set of React components designed for creating intuitive and responsive UIs.
+- **React Hook Form (v7.39):** Facilitates efficient and easy form handling with built-in validation.
+- **Chakra-React-Select (v3.3.1):** Used for enhancing the custom select component with Chakra UI styling.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation and Setup
 
-### `npm run build`
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/nimish1499/vue-firebase-auth-project.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Navigate to the project directory:
+   ```sh
+     cd [projectname]
+3. Install the Dependencies:
+   ```sh
+   npm i 
+4. Running the Application:
+   ```sh
+   npm start
