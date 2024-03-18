@@ -33,7 +33,7 @@ The live version of this project - https://user-details-typescript.netlify.app/.
 
 2. Navigate to the project directory:
    ```sh
-     cd react-form-application
+     cd react-form-application(project-name)
 3. Install the Dependencies:
    ```sh
    npm i 
