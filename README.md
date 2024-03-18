@@ -29,11 +29,11 @@ The live version of this project - https://user-details-typescript.netlify.app/.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/nimish1499/vue-firebase-auth-project.git
+   git clone https://github.com/nimish1499/react-form-application.git
 
 2. Navigate to the project directory:
    ```sh
-     cd [projectname]
+     cd react-form-application
 3. Install the Dependencies:
    ```sh
    npm i 
